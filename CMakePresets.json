@@ -4,13 +4,33 @@
     "major": 3,
     "minor": 12
   },
+  "buildPresets": [
+    {
+      "name": "Debug",
+      "jobs": 0
+    }
+  ],
   "configurePresets": [
     {
       "name": "Debug",
       "displayName": "Debug",
       "description": "Debug preset with debug symbols and no optimizations",
       "cacheVariables": {
-        "CMAKE_BUILD_TYPE": "Debug"
+        "CMAKE_BUILD_TYPE": "Debug",
+        "VOXEL_BUILD_CLIENT": "ON",
+        "VOXEL_BUILD_SERVER": "OFF",
+        "VOXEL_BUILD_TESTS": "OFF",
+        "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/vcpkg/scripts/buildsystems/vcpkg.cmake",
+        "ZLIB_ROOT": "${sourceDir}/vcpkg/installed/x64-windows",
+        "ZLIB_INCLUDE_DIR": "${sourceDir}/vcpkg/installed/x64-windows/include",
+        "ZLIB_LIBRARY": "${sourceDir}/vcpkg/installed/x64-windows/lib/zlib.lib",
+        "JPEG_ROOT": "${sourceDir}/vcpkg/installed/x64-windows",
+        "JPEG_INCLUDE_DIR": "${sourceDir}/vcpkg/installed/x64-windows/include",
+        "JPEG_LIBRARY": "${sourceDir}/vcpkg/installed/x64-windows/lib/jpeg.lib",
+        "PNG_ROOT": "${sourceDir}/vcpkg/installed/x64-windows",
+        "PNG_PNG_INCLUDE_DIR": "${sourceDir}/vcpkg/installed/x64-windows/include",
+        "PNG_LIBRARY": "${sourceDir}/vcpkg/installed/x64-windows/lib/libpng16.lib",
+        "SDL2_DIR": "${sourceDir}/vcpkg/installed/x64-windows/share/sdl2"
       }
     },
     {

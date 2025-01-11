@@ -95,7 +95,8 @@ doc/mkdocs/docs/*.md
 doc/mkdocs/mkdocs.yml
 
 ## Build files
-build/
+/build/
+/out/
 CMakeFiles
 Makefile
 cmake_install.cmake
