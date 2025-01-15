@@ -2,6 +2,8 @@
 
 ## Setup
 
+git clone https://github.com/microsoft/vcpkg.git
+
 # Luanti (formerly Minetest)
 
 ![Build Status](https://github.com/minetest/minetest/workflows/build/badge.svg)
