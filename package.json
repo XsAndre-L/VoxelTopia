@@ -1,0 +1,14 @@
+{
+  "name": "voxeltopia",
+  "module": "manager/index.ts",
+  "type": "module",
+  "scripts": {
+    "setup": "bun ./manager/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

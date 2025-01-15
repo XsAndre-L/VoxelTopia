@@ -2,7 +2,12 @@
 
 ## Setup
 
-git clone https://github.com/microsoft/vcpkg.git
+Make sure you have these tools installed:
+
+-   [CMake](https://cmake.org/download/)
+-   [vscode](https://code.visualstudio.com/)
+-   [C++ Extensions for VsCode](https://marketplace.visualstudio.com/items?itemName=franneck94.vscode-c-cpp-dev-extension-pack)
+-   [CMake Extension for VsCode](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)
 
 # Luanti (formerly Minetest)
 
@@ -17,14 +22,18 @@ and contributors (see source file comments and the version control log)
 
 ## Table of Contents
 
-1. [Further Documentation](#further-documentation)
-2. [Default Controls](#default-controls)
-3. [Paths](#paths)
-4. [Configuration File](#configuration-file)
-5. [Command-line Options](#command-line-options)
-6. [Compiling](#compiling)
-7. [Docker](#docker)
-8. [Version Scheme](#version-scheme)
+-   [VoxelTopia](#voxeltopia)
+    -   [Setup](#setup)
+-   [Luanti (formerly Minetest)](#luanti-formerly-minetest)
+    -   [Table of Contents](#table-of-contents)
+    -   [Further documentation](#further-documentation)
+    -   [Default controls](#default-controls)
+    -   [Paths](#paths)
+    -   [Configuration file](#configuration-file)
+    -   [Command-line options](#command-line-options)
+    -   [Compiling](#compiling)
+    -   [Docker](#docker)
+    -   [Version scheme](#version-scheme)
 
 ## Further documentation
 
